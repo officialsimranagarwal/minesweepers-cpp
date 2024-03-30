@@ -1,0 +1,53 @@
+Input: 
+ 
+
+0
+1 2
+2 3
+3 4
+4 5
+
+Output: 
+ 
+
+Enter the Difficulty Level
+Press 0 for BEGINNER (9 * 9 Cells and 10 Mines)
+Press 1 for INTERMEDIATE (16 * 16 Cells and 40 Mines)
+Press 2 for ADVANCED (24 * 24 Cells and 99 Mines)
+Current Status of Board : 
+    0 1 2 3 4 5 6 7 8 
+
+0   - - - - - - - - - 
+1   - - - - - - - - - 
+2   - - - - - - - - - 
+3   - - - - - - - - - 
+4   - - - - - - - - - 
+5   - - - - - - - - - 
+6   - - - - - - - - - 
+7   - - - - - - - - - 
+8   - - - - - - - - - 
+Enter your move, (row, column) -> Current Status of Board : 
+    0 1 2 3 4 5 6 7 8 
+
+0   - - - - - - - - - 
+1   - - 2 - - - - - - 
+2   - - - - - - - - - 
+3   - - - - - - - - - 
+4   - - - - - - - - - 
+5   - - - - - - - - - 
+6   - - - - - - - - - 
+7   - - - - - - - - - 
+8   - - - - - - - - - 
+Enter your move, (row, column) ->     0 1 2 3 4 5 6 7 8 
+
+0   - - - - - - - * * 
+1   - - 2 * - - - - - 
+2   - - - * * - - - - 
+3   - - - - - - - * - 
+4   - - - - - - - - - 
+5   - - - - - - - - - 
+6   - - * - - - - - - 
+7   - - - - * - - * - 
+8   - * - - - - - - - 
+
+You lost!
