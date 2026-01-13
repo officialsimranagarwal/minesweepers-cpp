@@ -1,49 +1,40 @@
-# Minesweeper C++ 💣
+# Minesweeper in C++ 💣
 
-A classic **console-based Minesweeper game** implemented in C++. Test your logic and luck by clearing the minefield without detonating any mines!
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Game](https://img.shields.io/badge/Game-Console--Based-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Playable-success?style=for-the-badge)
 
-![C++](https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+## 📖 Overview
 
-## ✨ Features
+A classic **Minesweeper** game implementation running entirely in the C++ console. Logic includes recursive grid expansion, mine placement, and win/loss condition checking.
 
-- **Classic Gameplay**: Identify mines and clear the grid.
-- **Multiple Implementations**: Includes two variations of the game logic.
-- **Console Interface**: Lightweight and fast performance.
-- **Recursive Logic**: Implements flood-fill algorithms for revealing empty cells.
+## 🕹️ Implementations
 
-## 🚀 Getting Started
+This repository features two variations:
+1.  **`minesweeps1.cpp`**: Core implementation.
+2.  **`minesweeps2.cpp`**: Alternative logic/refined features.
 
-### Prerequisites
+## 🚀 How to Play
 
-- A C++ Compiler (GCC, Clang).
-
-### Installation & Usage
-
-1.  **Clone the repository**:
+1.  **Compile** your preferred version:
     ```bash
-    git clone https://github.com/officialsimranagarwal/minesweepers-cpp.git
-    cd minesweepers-cpp
+    g++ minesweeps1.cpp -o minesweeper
     ```
-
-2.  **Compile the code**:
-    ```bash
-    g++ minesweeps2.cpp -o minesweeper
-    ```
-
-3.  **Run the game**:
+2.  **Run** the game:
     ```bash
     ./minesweeper
     ```
-
-## 🛠️ Tech Stack
-
-- **Language**: C++
-- **Logic**: Array manipulation and recursion.
+3.  **Controls**: Follow on-screen coordinate prompts to reveal cells. Avoid the mines!
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please check the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-## 📄 License
+## 👤 Author
 
-This project is open source and available under the [MIT License](LICENSE).
+**Simran Agarwal**
+-   [Profile](https://github.com/officialsimranagarwal)
+-   [LinkedIn](https://linkedin.com/in/simran-agarwal-54751b191)
+
+---
+*Generated with ❤️ by Simran Agarwal*
